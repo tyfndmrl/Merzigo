@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContentService", "ContentService", "{EE063FF5-FB33-4732-82F7-450A03BEF1D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserService", "UserService", "{D6D44621-E8BF-4168-A65A-ACBA7930CC0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{89048761-F632-4ED3-A335-4B0BB5F8295A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merzigo.ContentService.Api", "src\Merzigo.ContentService\Merzigo.ContentService.Api\Merzigo.ContentService.Api.csproj", "{560D592B-7BB7-4166-A1C3-DB52DE38506B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merzigo.ContentService.Application", "src\Merzigo.ContentService\Merzigo.ContentService.Application\Merzigo.ContentService.Application.csproj", "{C6A80880-E727-4A3E-BAAC-63309D7A07C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merzigo.ContentService.Domain", "src\Merzigo.ContentService\Merzigo.ContentService.Domain\Merzigo.ContentService.Domain.csproj", "{84A72C36-F9AA-47B6-9318-78EB11ADAF90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merzigo.ContentService.Infrastructure", "src\Merzigo.ContentService\Merzigo.ContentService.Infrastructure\Merzigo.ContentService.Infrastructure.csproj", "{B14A21F0-B2BF-4C36-92D4-10A383A9A9B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merzigo.UserService.Api", "src\Merzigo.UserService\Merzigo.UserService.Api\Merzigo.UserService.Api.csproj", "{1024C656-CB7D-44A2-9FE1-2437DE8799F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merzigo.UserService.Application", "src\Merzigo.UserService\Merzigo.UserService.Application\Merzigo.UserService.Application.csproj", "{E030B0DB-BE58-45F4-93F3-F89867C58DA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merzigo.UserService.Domain", "src\Merzigo.UserService\Merzigo.UserService.Domain\Merzigo.UserService.Domain.csproj", "{2D798F70-525C-454C-B729-1865AB4DE27E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merzigo.UserService.Infrastructure", "src\Merzigo.UserService\Merzigo.UserService.Infrastructure\Merzigo.UserService.Infrastructure.csproj", "{719126E7-D868-49BA-8718-F84260D0F71A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{560D592B-7BB7-4166-A1C3-DB52DE38506B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{560D592B-7BB7-4166-A1C3-DB52DE38506B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{560D592B-7BB7-4166-A1C3-DB52DE38506B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{560D592B-7BB7-4166-A1C3-DB52DE38506B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6A80880-E727-4A3E-BAAC-63309D7A07C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A80880-E727-4A3E-BAAC-63309D7A07C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A80880-E727-4A3E-BAAC-63309D7A07C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A80880-E727-4A3E-BAAC-63309D7A07C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84A72C36-F9AA-47B6-9318-78EB11ADAF90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84A72C36-F9AA-47B6-9318-78EB11ADAF90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84A72C36-F9AA-47B6-9318-78EB11ADAF90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84A72C36-F9AA-47B6-9318-78EB11ADAF90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B14A21F0-B2BF-4C36-92D4-10A383A9A9B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B14A21F0-B2BF-4C36-92D4-10A383A9A9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B14A21F0-B2BF-4C36-92D4-10A383A9A9B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B14A21F0-B2BF-4C36-92D4-10A383A9A9B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1024C656-CB7D-44A2-9FE1-2437DE8799F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1024C656-CB7D-44A2-9FE1-2437DE8799F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1024C656-CB7D-44A2-9FE1-2437DE8799F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1024C656-CB7D-44A2-9FE1-2437DE8799F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E030B0DB-BE58-45F4-93F3-F89867C58DA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E030B0DB-BE58-45F4-93F3-F89867C58DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E030B0DB-BE58-45F4-93F3-F89867C58DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E030B0DB-BE58-45F4-93F3-F89867C58DA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D798F70-525C-454C-B729-1865AB4DE27E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D798F70-525C-454C-B729-1865AB4DE27E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D798F70-525C-454C-B729-1865AB4DE27E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D798F70-525C-454C-B729-1865AB4DE27E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{719126E7-D868-49BA-8718-F84260D0F71A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{719126E7-D868-49BA-8718-F84260D0F71A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{719126E7-D868-49BA-8718-F84260D0F71A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{719126E7-D868-49BA-8718-F84260D0F71A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE063FF5-FB33-4732-82F7-450A03BEF1D4} = {89048761-F632-4ED3-A335-4B0BB5F8295A}
+		{D6D44621-E8BF-4168-A65A-ACBA7930CC0C} = {89048761-F632-4ED3-A335-4B0BB5F8295A}
+		{560D592B-7BB7-4166-A1C3-DB52DE38506B} = {EE063FF5-FB33-4732-82F7-450A03BEF1D4}
+		{C6A80880-E727-4A3E-BAAC-63309D7A07C4} = {EE063FF5-FB33-4732-82F7-450A03BEF1D4}
+		{84A72C36-F9AA-47B6-9318-78EB11ADAF90} = {EE063FF5-FB33-4732-82F7-450A03BEF1D4}
+		{B14A21F0-B2BF-4C36-92D4-10A383A9A9B2} = {EE063FF5-FB33-4732-82F7-450A03BEF1D4}
+		{1024C656-CB7D-44A2-9FE1-2437DE8799F4} = {D6D44621-E8BF-4168-A65A-ACBA7930CC0C}
+		{E030B0DB-BE58-45F4-93F3-F89867C58DA8} = {D6D44621-E8BF-4168-A65A-ACBA7930CC0C}
+		{2D798F70-525C-454C-B729-1865AB4DE27E} = {D6D44621-E8BF-4168-A65A-ACBA7930CC0C}
+		{719126E7-D868-49BA-8718-F84260D0F71A} = {D6D44621-E8BF-4168-A65A-ACBA7930CC0C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DF17142-A547-412A-B1A4-ABF8C654D8BA}
+	EndGlobalSection
+EndGlobal
