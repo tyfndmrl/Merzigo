@@ -32,7 +32,7 @@ Manages user information, allowing for user creation, updates, deletion, and ret
 ### Running the Services:
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-repository/cms-microservices.git
+   git clone https://github.com/tyfndmrl/Merzigo.git
    cd cms-microservices
    ```
 
